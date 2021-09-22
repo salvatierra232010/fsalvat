@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+<h1>Couch Sufers</h1>
+
+</div>
+<div id="navbar">
+<a class="active" href="index.html">HOME </a>
+<a href="contact.html">CONTACT US</a>
+<a href="product.html">PRODUCTS</a>
+<a href="about.html">ABOUT US</a>
+<a href="Start.html">START YOUR DESIGN</a>
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+</div>
+
+<div id="body_div">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="couch.jpg" style="width:50%">
+  <div class="text">Couches</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="table.jpg" style="width:50%">
+  <div class="text">Tables</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="chair.jpeg" style="width:50%">
+  <div class="text">Chairs</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+
+      <script src="script.js">
+      </script>
+</body>
+</html>
